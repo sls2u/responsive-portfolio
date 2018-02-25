@@ -10,24 +10,182 @@ body {
     background-color: #eeee;
 
   }
-
+/* .box1 {
+  float:left; */
+}
 }
 
-@media only screen and (min-width: 768px) {
-    body,  {
-      background-color: #708090;
+@media only screen and (max-width: 768px) {
+    body  {
+      background-color: darkgrey;
     }
 }
 
 @media only screen and (min-width: 980px) {
 
     body  {
-    background-color: 	black;
+    background-color: green;
     }
 }
 
-@media only screen and (min-width: 640px) {
-  .picture {
-    background-clip: url('profile.jpg');
+#profilepic {
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  max-width: 200px;
+  max-height: 180px;
+
   }
+
+@media only screen and (max-width: 640px) {
+.container1 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+}
+
+@media only screen and (max-width: 640px){
+.navbar {
+  border-radius: 0;
+  position: relative;
+min-height: 50px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+margin-left: -107px;
+margin-right: -106px;
+}
+}
+
+.navbar-brand {
+  font-size: 40px;
+  background-color: teal;
+   background: teal;
+  border: solid 1px teal;
+  background:  teal;
+}
+
+.name {
+  background-color: teal;
+  float: left;
+  color: white !important;
+  height: 49px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  text-align: center;
+  width: 180px;
+
+}
+
+
+.navsep {
+  float: left;
+width: 642px;
+}
+
+.myp {padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 9px;
+}
+.navbar-header {
+  color: white;
+  padding-left: 109px;
+
+
+}
+
+.header-color {
+  color: teal;
+  }
+
+
+.linkcolor {
+  color: gray;
+}
+
+
+  body {
+  color: black;
+
+  }
+
+
+  body {
+  background-image:url(upfeathers.png);
+
+  }
+
+
+
+.box {
+  background: white;
+  margin-top: 63px;
+
+}
+
+.btn-primary {
+  background-color: teal;
+  margin-top: -37px;
+
+}
+
+.bottomseperator {
+  height: 132px;
+}
+.bottomseperator2 {
+  height: 229px;
+}
+.centerfooter {
+  text-align: center;
+
+
+    padding-top: 26px;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100% !important;
+    text-align: center;
+    border: solid 2px white;
+    background-color: darkgrey;
+    color: white;
+    border-top-color: teal;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-left-color: darkgrey;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-right-color: darkgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: darkgrey;
+}
+.contactform {
+  width: 100%;
+  background: white;
+  padding: 1em;
+
+}
+
+.textarea {
+  height: 80px;
+}
+/* Container holding the image and the text */
+.containerimg {
+    position: relative;
+    margin-bottom: 15px;
+}
+.portfoliimg{
+  width: 304px;
+  height: 280px;
+}
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }

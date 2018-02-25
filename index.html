@@ -1,44 +1,91 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Bootstrap Homework Assignment 2</title>
 
-<!DOCTYPE html>
-<html lang="en-us">
+      <!-- Bootstrap -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    </head>
 
-<body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container1">
+              <div class="navbar-header">
+                  <div class ="name" >Sarah Stewart</div>
+                  <div class="navsep"></div>
+                  <ul class="nav navbar-nav navbar-right">
+             <li><a class=""href="#"></a></li>
+            <li class="">
+              <ul class="nav nav-pills">
+                <li><a class="linkcolor" href="index.html">About</a></li>
+                <li><a class="linkcolor" href="portfolio.html">Portfolio</a></li>
+                <li><a class="linkcolor" href="contact.html">Contact</a></li>
+              </ul>
+            </li>
+          </ul>
 
-  <div>
+                </div>
+              </div>
+          </nav>
 
-    <div section class="container">
+          <div class="container">
+            <div class="row">
+            <main class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+              <div class="box">
+                <div class="page-header">
+                  <h1 class="header-color">About Me </h1>
+                </div>
+                  <div class="box1">
+                    <img id="profilepic" class="pull-left" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAubAAAAJDE1M2VhYThjLWViMmQtNDYzZS1hOTZlLTVhNWRmNzRhYjA2ZQ.jpg"alt="placeholder" >
+                          <h3>Looking for exciting challenges!</h3>
+                          <p class="myp">Lorem ipsum do lor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p class="myp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                           </P>
 
-      <h2>Sarah Stewart</h2>
+                  </div>
+              </div>
+            </main>
 
-      <img class "picture" src="profile.jpg" alt="placeholder" alt="Your Name">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a>
-      </p>
-    </div>
+            <aside class="col-md-4 col-sm-6 col-xs-12">
+              <div class="box">
+                  <div class="page-header">
+                      <h3 class="header-color"><center>Connect with Me</center></h3>
+                  </div>
 
-    <section>
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">sarahstewartvsp@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sls2u</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">Coming Soon</a></li>
-      </ul>
-    </section>
-  </div>
+                    <div class="row">
+                      <div class="col-sm-12">
+                          <img src="https://cdn0.iconfinder.com/data/icons/linkedin-ui-twotone/48/Paul-03-128.png" class="pic" alt="placeholder" >
+                          <img src="https://cdn4.iconfinder.com/data/icons/miu-social/60/github-social-media-128.png" class="pic" alt="placeholder" >
+                          <img src="https://cdn2.iconfinder.com/data/icons/social-media-icons-2/83/stackoverflow_alt_64x83.png" class="pic" alt="placeholder" >
+                    </div>
+                  </div>
+                </div>
+            </aside>
+          </div>
+</div>
+<div class="row bottomseperator"></div>
+<div class="row">
 
-</body>
+<div class=" centerfooter" >
+<p><center>copyright &copy; 2018, Sarah Stewart</center></p>
+</div>
 
-</html>
+</div>
 
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
