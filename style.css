@@ -1,0 +1,33 @@
+body {
+  background-color: #FFFACD;
+  color:#F4A460;
+}
+
+@media only screen and (max-width: 640px) {
+  h2 {
+    color: teal;
+    position: static;
+    background-color: #eeee;
+
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+    body,  {
+      background-color: #708090;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+
+    body  {
+    background-color: 	black;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+  .picture {
+    background-clip: url('profile.jpg');
+  }
+}
